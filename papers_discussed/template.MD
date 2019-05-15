@@ -8,7 +8,9 @@ The paper first investigates why one-stage object detection networks trail in ac
 
 ### Describe the method
 
-> Describe the architecture used, description of data, results achieved, reasons metioned in the paper
+The paper identifies the biggest issue with one-stage detector as the high class imbalance of foreground and background objects that one-stage detectors have to face. The number of pixels corresponding to background far outnumber the number of pixels corresponding to the number of pixels for the foreground.
+
+To fix the imbalance, the authors propose a new loss function based on categorical cross-entropy with a scaling factor to 
 
 ### Any further details
 
