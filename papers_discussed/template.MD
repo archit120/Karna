@@ -1,10 +1,10 @@
 ### Title
 
-> The title of the paper
+Focal Loss for Dense Object Detection
 
 ### tl;dr
 
-> One-Two sentence summary of the paper
+The paper first investigates why one-stage object detection networks trail in accuracy compared to two-stage models and then proposes a new loss function to improve upon the shortcomings.
 
 ### Describe the method
 
